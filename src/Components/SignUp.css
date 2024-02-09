@@ -1,0 +1,111 @@
+.signupcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CBD5E0;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.signupform {
+    display: flex;
+    background-color: #1E1F26;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.signupemail, .signuppass {
+    display: flex;
+    align-items: center;
+    background-color: rgb(229 231 235);
+    gap: 10px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.emailicon, .passicon {
+    color: #57585D;
+}
+
+.validemail{
+    border: 1px solid red;
+}
+
+.visibility {
+    color: #57585D;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.form {
+    margin-top: 15px;
+}
+
+.signupemail input, .signuppass input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.signupbtn{
+    padding: 5px;
+    width: 100%;
+    margin-top: 15px;
+    background-color: #10B981;
+    color: white;
+    border-radius: 7px;
+
+}
+
+.alreadyhaveacc {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.alreadyhaveacc span {
+    color: #10B981;
+    /* text-decoration: none; */
+}
+.orline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+
+.line {
+    height: 1px;
+    width: 100px;
+    background-color: rgba(256,256,256,0.2);
+}
+
+.googlesignin {
+    display: flex;
+    gap: 15px;
+    background-color: rgba(256,256,256,0.2);
+    width: 100%;
+    padding: 6px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.googlesignin:hover {
+    background-color: rgba(256,256,256,0.4);
+}
+
+.githubicon {
+    color: white;
+    font-size: large;
+}
+
+.redirecttologin {
+    text-decoration: none;
+}

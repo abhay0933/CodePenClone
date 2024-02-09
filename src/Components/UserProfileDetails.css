@@ -1,0 +1,74 @@
+.userprofilecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+}
+
+.userphoto {
+    width: 42px;
+    height: 42px;
+    background-color: #10B981;
+    margin-left: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.userphoto img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.userphoto p {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.profiledownbtn {
+    width: 42px;
+    height: 42px;
+    background-color: #1E1F26;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: #CBD5E0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profiledownoptions {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    border-radius: 6px;
+    background-color: #1E1F26;
+    min-width: 150px;
+    padding: 11px;
+    position: absolute;
+    top: 49px;
+    gap: 9px;
+    /* text-decoration: none; */
+    transition: 0.5s ease-in-out;
+}
+
+.optionprofile {
+    text-decoration: none;
+    color: #CBD5E0;
+    width: 100%;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.optionprofile:hover {
+    background-color: rgba(256, 256, 256, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
