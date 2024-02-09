@@ -4,22 +4,22 @@ import { useSelector } from 'react-redux'
 
 const Projects = () => {
 
-  const projects= useSelector((state)=> state.project.project)
-  console.log(projects);
+  // const projects= useSelector((state)=> state.project.project)
+  // console.log(projects);
 
-  return (
+  // return (
     
-    <div className='projectscontainer'>
+  //   <div className='projectscontainer'>
       
-      {
-        projects && projects.map((project,index)=> {
-          <div className='project'> 
-             <p>easdad</p>
-          </div>
-        })
-      }
-    </div>
-  )
+  //     {
+  //       projects && projects.map((project,index)=> {
+  //         <div className='project'> 
+  //            <p>easdad</p>
+  //         </div>
+  //       })
+  //     }
+  //   </div>
+  // )
 }
 
 
